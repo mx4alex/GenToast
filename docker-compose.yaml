@@ -27,7 +27,7 @@ services:
             - docker_network
 
     bot:
-        build: /Users/mx4al/ООП/bot
+        build: /ООП/bot
         container_name: bot-1
         command: python ./bot.py
         env_file:
@@ -45,7 +45,7 @@ services:
             - docker_network
 
     server:
-        build: /Users/mx4al/ООП/generation
+        build: /ООП/generation
         container_name: generation-1
         command: python ./gen_toast.py
         environment:
