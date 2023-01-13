@@ -48,3 +48,4 @@ try:
     input_channel.start_consuming()
 except Exception:
     input_channel.stop_consuming()
+    
