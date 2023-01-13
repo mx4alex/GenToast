@@ -1,0 +1,6 @@
+aiogram
+pika
+aio_pika
+asyncio
+motor
+pymongo
